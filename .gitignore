@@ -1,0 +1,36 @@
+[Aa]ssets/AssetStoreTools*
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+[Oo]bj/
+[Tt]emp/
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Visual Studio Cache Directory
+/.vs/
+
+###
+# Autogen VS/MD solution and project files
+###
+[Ee]xportedObj/
+*.booproj
+*.consulo/
+*.csproj
+*.sln
+*.suo
+*.svd
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.tmp
+.DS_Store
+
+*.pibd.meta
+*.sysinfo.txt
+
+*.apk
+*.unitypackage
