@@ -664,13 +664,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_Bottom
+      name: Skeleton
       rect:
         serializedVersion: 2
-        x: 144
+        x: 143
         y: 0
         width: 72
-        height: 72
+        height: 101
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,11 +685,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_Top
+      name: Dog
       rect:
         serializedVersion: 2
-        x: 144
-        y: 72
+        x: 216
+        y: 0
         width: 72
         height: 72
       alignment: 9
