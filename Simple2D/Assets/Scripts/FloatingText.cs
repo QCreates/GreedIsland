@@ -3,14 +3,14 @@ using UnityEngine.UI;
 
 public class FloatingText
 {
-    public bool atcive;
+    public bool active;
     public GameObject go;
     public Text txt;
     public Vector3 motion;
     public float duration;
     public float lastShown;
 
-    public void Show()
+    public void Shown()
     {
         active = true;
         lastShown = Time.time;
