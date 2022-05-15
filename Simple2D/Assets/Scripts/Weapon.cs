@@ -40,7 +40,7 @@ public class Weapon : Collidable {
     {
         if (coll.tag == "Fighter")
         {
-            if (coll.name == "player")
+            if (coll.name == "Player_0")
              return;
             
             // Create a new damage object, then we'll send it to the fighter we've hit
@@ -49,7 +49,7 @@ public class Weapon : Collidable {
                 damageAmount = damagePoint,
                 origin = transform.position,
                 pushForce = pushForce
-            };
+            };  
      
             coll.SendMessage("ReceiveDamage", dmg);
         }

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class FloatingText
-{
+{ 
     public bool active;
     public GameObject go;
     public Text txt;
@@ -27,11 +27,11 @@ public class FloatingText
     public void UpdateFloatingText()
     {
         if(!active)
-        return;
+            return;
 
         // 10   -    7   >   2
         if(Time.time - lastShown > duration)
-        Hide();
+            Hide();
 
         go.transform.position += motion * Time.deltaTime;
     }

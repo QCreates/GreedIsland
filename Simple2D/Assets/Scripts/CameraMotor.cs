@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMotor : MonoBehaviour
-{
+{ 
     public Transform lookAt;
     public float boundX = 1f;
     public float boundY = .5f;

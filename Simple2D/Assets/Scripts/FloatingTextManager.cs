@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class FloatingTextManager : MonoBehaviour
-{
+{ 
     public GameObject textContainer;
     public GameObject textPrefab;
 
@@ -17,10 +17,10 @@ public class FloatingTextManager : MonoBehaviour
             txt.UpdateFloatingText();   
     }
 
-    /*internal void Show(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
+    internal void Show()
     {
         throw new NotImplementedException();
-    } */
+    }
     public void Show(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
     {
         FloatingText floatingText = GetFloatingText();
@@ -33,7 +33,7 @@ public class FloatingTextManager : MonoBehaviour
         floatingText.motion = motion;
         floatingText.duration = duration;
         
-        floatingText.Show();
+        floatingText.Shown();
             
     }
 
