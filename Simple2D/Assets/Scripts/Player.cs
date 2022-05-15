@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Fighter
 {
+    public bool AllowPlayerMovement = true;
     public Animator animator;
     float horizontalMove = 0f;
     float runSpeed = 40f;
@@ -16,10 +17,10 @@ public class Player : Fighter
     }
 
     void Update(){
-        
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if(AllowPlayerMovement){
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
+        }
     }
 
     private void FixedUpdate(){

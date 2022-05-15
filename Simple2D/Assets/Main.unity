@@ -10941,7 +10941,6 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  sceneNames: []
 --- !u!61 &315331794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11111,7 +11110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594183569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.076, y: 9.274, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -80327,6 +80326,7 @@ GameObject:
   - component: {fileID: 1250525485}
   - component: {fileID: 1250525486}
   - component: {fileID: 1250525487}
+  - component: {fileID: 1250525488}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -80342,7 +80342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250525483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.189, y: 0.216, z: 0}
+  m_LocalPosition: {x: 0.095, y: -0.076, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1772712040}
@@ -80415,7 +80415,7 @@ BoxCollider2D:
   m_Offset: {x: 0.28669533, y: -0.08763665}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.8993594, y: 0.059714}
     oldSize: {x: 0.72, y: 0.72}
     newSize: {x: 0.72, y: 0.72}
     adaptiveTilingThreshold: 0.5
@@ -80454,6 +80454,25 @@ MonoBehaviour:
   damagePoint: 1
   pushForce: 2
   weaponLevel: 0
+--- !u!95 &1250525488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250525483}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71aa0bed4ac25df4d897ac27fec51148, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1481011543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83534,6 +83553,7 @@ MonoBehaviour:
   hitpoint: 0
   maxHitpoint: 0
   pushRecoverySpeed: 0.2
+  AllowPlayerMovement: 1
   animator: {fileID: 1772712042}
 --- !u!212 &1772712039
 SpriteRenderer:
@@ -83691,7 +83711,6 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  sceneNames: []
 --- !u!61 &1963641198
 BoxCollider2D:
   m_ObjectHideFlags: 0
