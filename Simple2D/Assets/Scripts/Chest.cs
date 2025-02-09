@@ -12,7 +12,7 @@ public class Chest : Collectable
         if (!collected){
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            Debug.Log("Grant" + bootyAmount + "booty!");
+            GameManager.instance.ShowText("+" + bootyAmount + " booty!", 25, Color.yellow, transform.position, Vector3.up * 50, 3.0f);
         }
     }
 }

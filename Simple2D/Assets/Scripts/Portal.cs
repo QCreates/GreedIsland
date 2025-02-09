@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -24,4 +24,4 @@ public class Portal : Collidable {
         yield return new WaitForSeconds(1f);
         player.AllowPlayerMovement = true;    
     }
-}
+}*/
